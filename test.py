@@ -1,2 +1,10 @@
 # test
-print("hello")
+def hello():
+    print("hello")
+
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+else:
+    print("finish!")
